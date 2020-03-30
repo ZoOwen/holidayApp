@@ -11,7 +11,7 @@ const SmoothScroll = () => {
                 <div className="container">
                 <div className="nav-wrapper">
                         <AnchorLink href="!#" className="brand-logo">AirLog</AnchorLink>
-                        <AnchorLink href="!#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">Menu</i></AnchorLink>
+                        <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                             <ul className="right hide-on-med-and-down">
                             <li><AnchorLink href="/home">Home</AnchorLink></li>
                             <li><AnchorLink href="/search">Search</AnchorLink></li>
@@ -25,7 +25,7 @@ const SmoothScroll = () => {
                 </div>
             </nav>
         </div>
-        <ul className="sidenav" id="mobile-demo">
+        <ul className="sidenav" id="slide-out">
         <li><AnchorLink href="/home">Home</AnchorLink></li>
         <li><AnchorLink href="/search">Search</AnchorLink></li>
         <li><AnchorLink href="/explore">Explore</AnchorLink></li>
